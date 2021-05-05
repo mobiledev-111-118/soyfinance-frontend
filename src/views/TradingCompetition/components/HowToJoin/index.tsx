@@ -20,7 +20,7 @@ const HowToJoin = () => {
       <HowToCard number={1} title={TranslateString(999, 'Get Ready')}>
         <Text fontSize="14px" color="textSubtle">
           {TranslateString(999, 'Set up your')}{' '}
-          <StyledLink href="/profile">{TranslateString(999, 'Pancake Profile')}</StyledLink>
+          <StyledLink href="/profile">{TranslateString(999, 'Soy Profile')}</StyledLink>
           {', '}
           {TranslateString(999, 'then register for the competition by clicking the “I WANT TO BATTLE” button above.')}
         </Text>

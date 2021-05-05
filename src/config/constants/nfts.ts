@@ -22,7 +22,7 @@ export const nftSources: NftSource = {
 const Nfts: Nft[] = [
   {
     name: 'Mixie v1',
-    description: 'Stories were told, and songs were sung, about Chef Mixie’s pancakes and her big Syrup gun.',
+    description: 'Stories were told, and songs were sung, about Chef Mixie’s Soys and her big Syrup gun.',
     images: {
       lg: 'mixie-1-lg.png',
       md: 'mixie-1-md.png',
@@ -36,7 +36,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Mixie v2',
-    description: 'Stories were told, and songs were sung, about Chef Mixie’s pancakes and her big Syrup gun.',
+    description: 'Stories were told, and songs were sung, about Chef Mixie’s Soys and her big Syrup gun.',
     images: {
       lg: 'mixie-2-lg.png',
       md: 'mixie-2-md.png',
@@ -50,7 +50,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Mixie v3',
-    description: 'Stories were told, and songs were sung, about Chef Mixie’s pancakes and her big Syrup gun.',
+    description: 'Stories were told, and songs were sung, about Chef Mixie’s Soys and her big Syrup gun.',
     images: {
       lg: 'mixie-3-lg.png',
       md: 'mixie-3-md.png',
@@ -158,7 +158,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Sleepy',
-    description: 'Aww, looks like eating pancakes all day is tough work. Sweet dreams!',
+    description: 'Aww, looks like eating Soys all day is tough work. Sweet dreams!',
     images: {
       lg: 'sleepy-lg.png',
       md: 'sleepy-md.png',
@@ -173,7 +173,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Sunny',
-    description: 'Sunny is always cheerful when there are pancakes around. Smile!',
+    description: 'Sunny is always cheerful when there are Soys around. Smile!',
     images: {
       lg: 'sunny-lg.png',
       md: 'sunny-md.png',
@@ -233,7 +233,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Swapsies',
-    description: 'These bunnies love nothing more than swapping pancakes. Especially on BSC.',
+    description: 'These bunnies love nothing more than swapping Soys. Especially on BSC.',
     images: {
       lg: 'swapsies-lg.png',
       md: 'swapsies-md.png',
@@ -263,7 +263,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Blueberries',
-    description: "These bunnies like their pancakes with blueberries. What's your favorite topping?",
+    description: "These bunnies like their Soys with blueberries. What's your favorite topping?",
     images: {
       lg: 'blueberries-lg.png',
       md: 'blueberries-md.png',
@@ -278,7 +278,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Circular',
-    description: "Love makes the world go 'round... but so do pancakes. And these bunnies know it.",
+    description: "Love makes the world go 'round... but so do Soys. And these bunnies know it.",
     images: {
       lg: 'circular-lg.png',
       md: 'circular-md.png',
@@ -293,7 +293,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Sparkle',
-    description: 'It’s sparkling syrup, pancakes, and even lottery tickets! This bunny really loves it.',
+    description: 'It’s sparkling syrup, Soys, and even lottery tickets! This bunny really loves it.',
     images: {
       lg: 'sparkle-lg.png',
       md: 'sparkle-md.png',
