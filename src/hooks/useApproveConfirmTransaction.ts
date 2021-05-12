@@ -3,6 +3,7 @@ import { noop } from 'lodash'
 import { useWeb3React } from '@web3-react/core'
 import useToast from 'hooks/useToast'
 
+
 type Web3Payload = Record<string, unknown> | null
 
 type LoadingState = 'idle' | 'loading' | 'success' | 'fail'

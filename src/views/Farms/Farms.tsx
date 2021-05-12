@@ -421,7 +421,7 @@ const Farms: React.FC = () => {
         </ControlContainer>
         {renderContent()}
         <div ref={loadMoreRef} />
-        <StyledImage src="/images/3dpan.png" alt="soy illustration" width={120} height={103} />
+        <StyledImage src="" alt="soy illustration" width={120} height={103} />
       </Page>
     </>
   )

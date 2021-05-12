@@ -16,19 +16,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'LP Migration',
-        href: 'https://v1exchange.soyswap.finance/#/migrate',
+        href: '#',
       },
       {
         label: 'Exchange',
-        href: 'https://exchange.soyswap.finance/#/swap',
+        href: '#',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.soyswap.finance/#/pool',
+        href: '#',
       },
       {
         label: 'V1 Liquidity (Old)',
-        href: 'https://v1exchange.soyswap.finance/#/pool',
+        href: '#',
       },
     ],
   },
@@ -42,67 +42,67 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'Prediction',
-    icon: 'PredictionsIcon',
-    href: '/prediction',
-    status: {
-      text: 'BETA',
-      color: 'warning',
-    },
-  },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
-  {
-    label: 'Collectibles',
-    icon: 'NftIcon',
-    href: '/collectibles',
-  },
-  {
-    label: 'Team Battle',
-    icon: 'TeamBattleIcon',
-    href: '/competition',
-  },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: 'Leaderboard',
-        href: '/teams',
-      },
-      {
-        label: 'Task Center',
-        href: '/profile/tasks',
-      },
-      {
-        label: 'Your Profile',
-        href: '/profile',
-      },
-    ],
-  },
+  // {
+  //   label: 'Prediction',
+  //   icon: 'PredictionsIcon',
+  //   href: '/prediction',
+  //   status: {
+  //     text: 'BETA',
+  //     color: 'warning',
+  //   },
+  // },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: '/lottery',
+  // },
+  // {
+  //   label: 'Collectibles',
+  //   icon: 'NftIcon',
+  //   href: '/collectibles',
+  // },
+  // {
+  //   label: 'Team Battle',
+  //   icon: 'TeamBattleIcon',
+  //   href: '/competition',
+  // },
+  // {
+  //   label: 'Teams & Profile',
+  //   icon: 'GroupsIcon',
+  //   items: [
+  //     {
+  //       label: 'Leaderboard',
+  //       href: '/teams',
+  //     },
+  //     {
+  //       label: 'Task Center',
+  //       href: '/profile/tasks',
+  //     },
+  //     {
+  //       label: 'Your Profile',
+  //       href: '/profile',
+  //     },
+  //   ],
+  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'Overview',
-        href: 'https://soyswap.info',
+        href: '#',
       },
       {
         label: 'Tokens',
-        href: 'https://soyswap.info/tokens',
+        href: '#',
       },
       {
         label: 'Pairs',
-        href: 'https://soyswap.info/pairs',
+        href: '#',
       },
       {
         label: 'Accounts',
-        href: 'https://soyswap.info/accounts',
+        href: '#',
       },
     ],
   },
@@ -117,27 +117,27 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href: 'https://docs.soyswap.finance/contact-us',
+        href: '#',
       },
       {
         label: 'Voting',
-        href: 'https://voting.soyswap.finance',
+        href: '#',
       },
       {
         label: 'Github',
-        href: 'https://github.com/soyswap',
+        href: '#',
       },
       {
         label: 'Docs',
-        href: 'https://docs.soyswap.finance',
+        href: '#',
       },
       {
         label: 'Blog',
-        href: 'https://soyswap.medium.com',
+        href: '#',
       },
       {
         label: 'Merch',
-        href: 'https://soyswap.creator-spring.com/',
+        href: '#',
       },
     ],
   },

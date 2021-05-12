@@ -12,7 +12,7 @@ const Teams = () => {
   const { teams, isLoading } = useTeams()
   const teamList = Object.values(teams)
   const topTeams = orderBy(teamList, ['points', 'id', 'name'], ['desc', 'asc', 'asc'])
-
+console.log(teams, teamList, topTeams)
   return (
     <Page>
       <TeamHeader />
