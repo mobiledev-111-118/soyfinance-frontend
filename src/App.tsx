@@ -61,7 +61,7 @@ const App: React.FC = () => {
             <Route path="/pools">
               <Pools />
             </Route>
-            <Route path="/lottery">
+            {/* <Route path="/lottery">
               <Lottery />
             </Route>
             <Route path="/ifo">
@@ -84,17 +84,17 @@ const App: React.FC = () => {
             </Route>
             <Route path="/prediction">
               <Predictions />
-            </Route>
+            </Route> */}
             {/* Redirect */}
             <Route path="/staking">
               <Redirect to="/pools" />
             </Route>
-            <Route path="/syrup">
+            {/* <Route path="/syrup">
               <Redirect to="/pools" />
             </Route>
             <Route path="/nft">
               <Redirect to="/collectibles" />
-            </Route>
+            </Route> */}
             {/* 404 */}
             <Route component={NotFound} />
           </Switch>

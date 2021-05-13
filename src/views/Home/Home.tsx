@@ -33,8 +33,8 @@ const Hero = styled.div`
 `
 
 const Cards = styled(BaseLayout)`
-  align-items: stretch;
-  justify-content: stretch;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 32px;
 
   & > div {
@@ -87,15 +87,15 @@ const Home: React.FC = () => {
         </Heading>
         <Text>{TranslateString(578, 'The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
       </Hero>
-      <div>
+      <div style={{justifyContent: "center", alignItems: "center"}}>
         <Cards>
           <FarmStakingCard />
-          <LotteryCard />
+          {/* <LotteryCard /> */}
         </Cards>
         <CTACards>
           <EarnAPRCard />
           <EarnAssetCard />
-          <WinCard />
+          {/* <WinCard /> */}
         </CTACards>
         <Cards>
           <CakeStats />

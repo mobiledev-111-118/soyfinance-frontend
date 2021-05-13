@@ -78,11 +78,11 @@ const Syrup: React.FC = () => {
         </Flex>
       </PageHeader>
       <Page>
-        <PoolTabButtons
+        {/* <PoolTabButtons
           stakedOnly={stakedOnly}
           setStakedOnly={setStakedOnly}
           hasStakeInFinishedPools={hasStakeInFinishedPools}
-        />
+        /> */}
         <Divider />
         <FlexLayout>
           <Route exact path={`${path}`}>
@@ -90,7 +90,7 @@ const Syrup: React.FC = () => {
               {stakedOnly
                 ? orderBy(stakedOnlyPools, ['sortOrder']).map((pool) => <PoolCard key={pool.sousId} pool={pool} />)
                 : orderBy(openPools, ['sortOrder']).map((pool) => <PoolCard key={pool.sousId} pool={pool} />)}
-              <Coming />
+              {/* <Coming /> */}
             </>
           </Route>
           <Route path={`${path}/history`}>

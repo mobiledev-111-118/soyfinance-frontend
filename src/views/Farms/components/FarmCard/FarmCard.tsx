@@ -95,16 +95,16 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
 
   const [showExpandableSection, setShowExpandableSection] = useState(false)
 
-  // We assume the token name is coin pair + lp e.g. CAKE-BNB LP, LINK-BNB LP,
-  // NAR-CAKE LP. The images should be cake-bnb.svg, link-bnb.svg, nar-cake.svg
+  // We assume the token name is coin pair + lp e.g. SOY-BUSDT LP, LINK-BNB LP,
+  // NAR-CAKE LP. The images should be soy-busdt.svg, link-bnb.svg, nar-cake.svg
   const farmImage = farm.lpSymbol.split(' ')[0].toLocaleLowerCase()
 
   const totalValueFormatted = farm.liquidity
     ? `$${farm.liquidity.toNumber().toLocaleString(undefined, { maximumFractionDigits: 0 })}`
     : '-'
 
-  const lpLabel = farm.lpSymbol && farm.lpSymbol.toUpperCase().replace('SOY', '')
-  const earnLabel = farm.dual ? farm.dual.earnLabel : 'CAKE'
+  const lpLabel = farm.lpSymbol; // && farm.lpSymbol.toUpperCase().replace('SOY', '')
+  const earnLabel = farm.dual ? farm.dual.earnLabel : 'SOY'
 
   const farmAPR = farm.apr && farm.apr.toLocaleString('en-US', { maximumFractionDigits: 2 })
 
@@ -117,7 +117,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
 
   return (
     <FCard>
-      {farm.token.symbol === 'CAKE' && <StyledCardAccent />}
+      {farm.token.symbol === 'SOY' && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
